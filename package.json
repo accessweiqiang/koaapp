@@ -1,0 +1,29 @@
+{
+  "name": "koaapp",
+  "version": "1.0.0",
+  "description": "koaapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "cd src &&  node index.js",
+    "pm2start": "cd src && pm2 start  node index.js",
+    "pm2stop": "pm2 stop all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/accessweiqiang/koaapp.git"
+  },
+  "keywords": [
+    "koaapp"
+  ],
+  "author": "weiqiang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/accessweiqiang/koaapp/issues"
+  },
+  "homepage": "https://github.com/accessweiqiang/koaapp#readme",
+  "dependencies": {
+    "koa": "^2.5.1",
+    "koa-sslify": "^2.1.2"
+  }
+}
