@@ -1,4 +1,4 @@
 module.exports=function(){
-console.log('aaa')
+console.log('哈哈哈')
     return 'hellow '+(new Date()).toDateString()
 }
